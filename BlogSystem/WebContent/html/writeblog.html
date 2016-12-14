@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>编辑博文</title>
+        <link rel="stylesheet" href="../css/head-foot-common.css" />
+        <link rel="stylesheet" href="../css/writeblog.css" />
+    </head>
+    <body>
+            <div id="wrapper">
+            
+                <div id="logo">
+                    <h1>博客系统</h1>
+                    <p><em>欢迎您</em></p>
+                </div>                
+                <div id="header">
+                    <div id="menu">
+                        <ul>
+                            <li><a href="#" class="current">编辑博文</a></li>
+                            <li><a href="index.html" class="index">首页</a></li>
+                            <li><a href="selfindex.html" class="self">个人中心</a></li>
+                        </ul>
+                    </div>                               
+                </div>
+                
+                <div id="page">
+                   
+                        <p class="bs"><span>博文分类:</span>
+                            <select class="select" name="tagname">
+                                <option checked>新闻</option>
+                                <option>科技</option>
+                                <option>生活</option>
+                                <option>体育</option>
+                                <option>娱乐</option>
+                                <option>财经</option>
+                                <option>其他</option> 
+                            </select>
+                        </p>
+                        <p class="bt">
+                            <span>博文标题:</span><input type="text" name="blogtitle" class="input" placeholder=" 50字以内"/>
+                        </p>
+                        <span class="bct">博文内容:</span>
+                        <p><textarea name="blogcontent" class="bc" placeholder=" 3000字以内"></textarea></p>
+                        <input type="submit" value="提交" class="btn"/>
+                    
+                </div>
+                
+                 <div id="footer-bgcontent">
+                
+                    <div id="footer">
+                        <p>Copyright (C) 2016 BlogSystem.com. All rights Reserved&
+                             Design by <a href="#">Suzhilong</a></p>
+                    </div>
+                    
+                </div>
+             </div>
+             <script src="../js/jquery-3.1.0.js"></script>
+             <script src="../js/writeblog.js"></script>
+    </body>
+</html>

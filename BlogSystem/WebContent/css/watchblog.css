@@ -1,0 +1,79 @@
+/* Page */
+
+#page {
+    width: 920px;
+    /* height: 500px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#page-bgtop {
+    padding-top: 30px;
+}
+
+/* Content */
+
+#content {
+    width: 658px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+/* Post */
+
+.post {
+    margin-bottom: 25px;
+}
+
+.post .title {
+    height: 30px;
+    color: #549900;
+}
+
+.post .title a {
+    text-decoration: none;
+    color: #585D60;
+}
+
+.post .meta {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding: 2px 30px 2px 16px;
+    background: url(../images/img03.gif) no-repeat left 8px;
+    font-weight: normal;
+    font-size: 10px;
+    color: black;
+}
+
+.post .entry {
+    padding: 10px 0;
+    font-size:13px;
+}
+
+.operate{
+    text-align:right;
+    padding:4px;    
+}
+.operate a{
+    text-decoration:underline;
+}
+
+#comment-box p{
+	width:650px;
+	font-size:13px;
+	padding-left:15px;
+	overflow:hidden;
+}
+.comment-btn{
+	width: 100px;
+    height: 24px;
+}
+.comment-input{
+	height: 20px;
+    width: 545px;
+}
+#comment-box a{
+	float:right;
+	text-decoration:underline;
+}

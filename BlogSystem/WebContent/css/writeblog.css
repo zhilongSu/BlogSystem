@@ -1,0 +1,66 @@
+/* page */
+#page{
+    text-align: center;
+    width: 920px;
+    margin: 0 auto; 
+    font-family:"Microsoft Yahei";   
+}
+span{
+    font-size: 14px;
+}
+
+h2{
+    color: #33b4de;
+    font-size: 32px;
+    border-bottom: 1px #33b4de solid;
+    padding: 22px;
+}
+
+.bs,.bt,.bct{
+    margin-top: 1.5%;
+    margin-left: 11%;
+}
+.bct{
+    display: block;
+    width: 21%;
+    text-align: left;
+}
+select{
+    border: 1px solid black;
+}
+.input{
+    width: 69%;
+    height: 30px;
+    margin-left: 6px;
+    line-height: 35px;
+    border-radius: 4px;
+    font-size:14px;
+    border: 1px solid gray;
+}
+.select{
+    width:80px;
+    height:30px;
+    font-size:14px;
+    text-align:center;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+textarea{
+    resize: none;
+    width: 60%;
+    height: 320px;
+    margin-left: 19%;
+    font-size:14px;
+    border-radius: 4px;
+}
+[type="submit"] {
+    height: 40px;
+    font-size: 16px;
+    width: 120px;
+    background: #3d3b4f;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-top: -8px;
+}
